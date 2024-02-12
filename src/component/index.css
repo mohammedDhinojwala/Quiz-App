@@ -1,0 +1,272 @@
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url(dist/asset/fonts/Gilroy-Bold.ttf);
+}
+
+
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url(dist/asset/fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family:Gilroy-SemiBold;
+  src: url(dist/asset/fonts/Gilroy-SemiBold.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+
+}
+.f-main{
+  height: 100vh;
+  width:100%;
+  background-image: url("dist/asset/img/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* background: rgba(230,143,154,1); */
+/* background: -moz-linear-gradient(left, rgba(230,143,154,1) 0%, rgba(189,38,55,1) 50%, rgba(186,39,55,1) 51%, rgba(255,61,84,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(230,143,154,1)), color-stop(50%, rgba(189,38,55,1)), color-stop(51%, rgba(186,39,55,1)), color-stop(100%, rgba(255,61,84,1)));
+background: -webkit-linear-gradient(left, rgba(230,143,154,1) 0%, rgba(189,38,55,1) 50%, rgba(186,39,55,1) 51%, rgba(255,61,84,1) 100%);
+background: -o-linear-gradient(left, rgba(230,143,154,1) 0%, rgba(189,38,55,1) 50%, rgba(186,39,55,1) 51%, rgba(255,61,84,1) 100%);
+background: -ms-linear-gradient(left, rgba(230,143,154,1) 0%, rgba(189,38,55,1) 50%, rgba(186,39,55,1) 51%, rgba(255,61,84,1) 100%);
+background: linear-gradient(to right, rgba(230,143,154,1) 0%, rgba(189,38,55,1) 50%, rgba(186,39,55,1) 51%, rgba(255,61,84,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e68f9a', endColorstr='#ff3d54', GradientType=1 ); */
+}
+.f-heading{
+  color: wheat;
+  font-family:Gilroy-Bold ;
+padding-top: 2vh;
+  text-align: center;
+  font-family:Gilroy-Bold ;
+}
+
+.f-buttonCard{
+  
+
+  border-radius: 80px;
+  width: 30%;
+  height: 80vh;
+  margin: 7vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.06);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+/* From https://css.glass */
+background: rgba(152, 38, 38, 0.06);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.06);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+  
+
+
+}
+
+.f-btn{
+  /* border: none; */
+  border: 2px solid rgb(0, 0, 0);
+  width: 40%;
+  height: 10%;
+  color: black;
+  border-radius: 30px;
+  background-color: white;
+  font-size: 3.5vh;
+  font-family:Gilroy-semiBold ; 
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: rgba(94,117,36,1);
+background: -moz-linear-gradient(left, rgba(94,117,36,1) 0%, rgba(46,62,4,1) 58%, rgba(46,62,4,1) 100%);
+background: rgba(124,204,235,1);
+background: -moz-linear-gradient(left, rgba(124,204,235,1) 0%, rgba(121,195,223,1) 8%, rgba(109,162,181,1) 37%, rgba(109,162,181,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(124,204,235,1)), color-stop(8%, rgba(121,195,223,1)), color-stop(37%, rgba(109,162,181,1)), color-stop(100%, rgba(109,162,181,1)));
+background: -webkit-linear-gradient(left, rgba(124,204,235,1) 0%, rgba(121,195,223,1) 8%, rgba(109,162,181,1) 37%, rgba(109,162,181,1) 100%);
+background: -o-linear-gradient(left, rgba(124,204,235,1) 0%, rgba(121,195,223,1) 8%, rgba(109,162,181,1) 37%, rgba(109,162,181,1) 100%);
+background: -ms-linear-gradient(left, rgba(124,204,235,1) 0%, rgba(121,195,223,1) 8%, rgba(109,162,181,1) 37%, rgba(109,162,181,1) 100%);
+background: linear-gradient(to right, rgba(124,204,235,1) 0%, rgba(121,195,223,1) 8%, rgba(109,162,181,1) 37%, rgba(109,162,181,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ccceb', endColorstr='#6da2b5', GradientType=1 );
+
+
+}
+.box{
+  height: 90%;
+  width: 30%;
+  /* border: 3px solid blue; */
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0 1vh;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 26px -3px rgba(0,0,0,0.75);
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.06);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+border: 1px solid rgba(255, 255, 255, 0.48);
+}
+
+.c-heading{
+  margin-top: 3vh;
+  font-family:Gilroy-Bold ; 
+
+}
+
+.c-currScore{
+  margin-top: 3.5vh;
+  font-family:Gilroy-semiBold ; 
+
+}
+
+.c-currQue{
+  text-align: center;
+  margin-top: 2.5vh;
+  font-family:Gilroy-semiBold ; 
+
+}
+
+.que{
+  margin-top: 5vh;
+  font-size: 4vh;
+  font-family:Gilroy-Bold ; display: flex;
+
+  text-align: center;
+
+}
+.que-card{
+ position: relative;
+}
+
+.que-card ul{
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 3.7vh;
+  margin-top: 3vh;
+  padding: 4vh 0;
+  font-family:Gilroy-Regular ; 
+
+
+}
+
+.que-card ul li{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 2.5vh auto;
+  border: 1px solid black;
+  padding: 1vh 0vh;
+  width: 90%;
+  border-radius: 35px;
+  cursor:pointer;
+}
+
+.que-card ul li:hover{
+  background-color: #096a5a;
+  color:wheat;
+  border: 1px solid whitesmoke;
+}
+
+
+
+.final-result {
+  width: 70%;
+  height: 40%;
+  border: 1px solid red;
+  background-color: #fda789;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0vh 0;
+  margin-top:15vh ;
+}
+
+.final-result h1{
+  font-size: 5.5vh;
+  margin-top: 2.5vh;
+  font-family:Gilroy- Bold ; 
+  
+  
+}
+.final-result h2{
+  font-size: 3.5vh;
+  margin-top: 7.5vh;
+  font-family:Gilroy-semiBold ; 
+
+}
+.final-result button{
+  color: black ;
+  background-color: #df7d59;
+  border: none;
+  width: 40%;
+  height: 20%;
+  border-radius: 20px;
+  padding: 3vh 0vh;
+  font-size: 2.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7vh;
+  font-family:Gilroy-semiBold ; 
+
+}
+.final-result button:hover{
+  background-color: #7b2708;
+  color:white;
+  border: 1px solid black;
+}
+
+.list{
+  background-color: #9FCDC5;
+  
+}
+
+.c-nextBtn{
+  
+color: wheat;
+font-family:Gilroy-semiBold ; 
+font-size: 3.5vh;
+width: 40%;
+height: 8%;
+background-color: #02b093;
+border: none;
+border-radius: 30px;
+position: absolute;
+text-align: center;
+left: 30%;
+bottom: -3%;
+cursor: pointer;
+}
+
+.c-nextBtn:hover{
+  background-color: #066b5a;
+}
